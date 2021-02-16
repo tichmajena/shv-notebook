@@ -1,0 +1,47 @@
+body {
+    font-size: 15pt;
+    padding-bottom: 500px
+}
+
+.page-content {
+ padding: 10px;
+}
+
+.step-field-wrapper{
+ display:flex;
+ flex-direction: row;
+ justify-content: start;
+ align-items: center;
+}
+
+
+.form{
+ display: flex;
+ flex-direction: column;
+}
+
+.button-wrapper{
+   margin-bottom: 5px;
+   align-self: flex-end;
+   
+}
+
+.title-field-wrapper input{
+   font-size: 24px;
+}
+
+.steps-body{
+ display: flex;
+ flex-direction: row;
+ align-items: stretch;
+ 
+}
+
+.number{
+ font-size: 18px;
+}
+
+.spacer{
+ height: 500px;
+}
+
