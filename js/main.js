@@ -49,16 +49,16 @@ function saveAppNotes(){
  stepsArray.forEach((step, index) => {
   console.log(index);
   let idNumber = index + 1;
-  let stepValue = step.querySelector(`#add-step-${idNumber}`).value;
+  let stepValue = step.querySelector(`#app-step-${idNumber}`).value;
  
   let liEl = document.createElement('li');
-  let itemtext = stepValue;
-  liEl.appendChild(itemtext);
+ 
+  liEl.innerText = stepValue;
   ulEl.appendChild(liEl);
   
  });
  
- titleEl.appendChild(noteTitleText);
+ titleEl.innerText = noteTitleText;
  displayEl.appendChild(titleEl);
  displayEl.appendChild(ulEl);
  
